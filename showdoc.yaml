@@ -8,7 +8,7 @@ services:
     image: star7th/showdoc
     container_name: showdoc
     hostname: showdoc
-    restart: always
+    restart: unless-stopped
     ports:
       - 4999:80
     volumes:
