@@ -4,7 +4,7 @@ some docker compose config file
 # start
 docker-compose -f xxx.yaml up 
 
-# start as deamon
+# start as daemon
 docker-compose -f xxx.yaml up -d
 
 # stop
